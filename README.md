@@ -62,14 +62,16 @@ Raw audio (PDM)
 ```text
 kws-tinyml/
 │
-├── training/
+├── .venvkws/
 │   └── kws_training.py          # Complete Python pipeline (data → model → export)
-    └── kws_model.h              # model that will be used by arduino code
-    └── kws_model.keras          # model keras (optionnal) 
-    └── kws_model.tflite         # model tflite (optionnal) 
-    └── confusion_matrix.png     # confusion matrix of my model training 
-    └── mfcc_visualization.png   # to have an idea of what a 1s audio looks like in 2D (with mfcc values)
-    └── training_history.png     # train + validation graph
+│
+├── training/
+│   └── kws_model.h              # model that will be used by arduino code
+│   └── kws_model.keras          # model keras (optionnal) 
+│   └── kws_model.tflite         # model tflite (optionnal) 
+│   └── confusion_matrix.png     # confusion matrix of my model training 
+│   └── mfcc_visualization.png   # to have an idea of what a 1s audio looks like in 2D (with mfcc values)
+│   └── training_history.png     # train + validation graph
 │
 ├── arduino/
 │   ├── kws_inference.ino        # Main Arduino sketch
