@@ -82,6 +82,7 @@ kws-tinyml/
 └── logs.md                      # history of the problems encountered and how to solve them  
 └── notions.txt                  # some notions important to understand how the training works 
 └── procedure.txt                # big picture of the procedure to realize this project
+└── conclusion.mp4               # video showing the final result
 └── README.md
 ```
 
