@@ -1,10 +1,10 @@
 // ============================================================
-// Modï¿½le KWS gï¿½nï¿½rï¿½ automatiquement
+// Modèle KWS généré automatiquement
 // Ne pas modifier manuellement.
 //
 // Classes : ['yes', 'no', 'background']
 // Taille  : 15.1 KB (15488 octets)
-// Format  : TFLite int8 quantifiï¿½
+// Format  : TFLite int8 quantifié
 // ============================================================
 
 #ifndef KWS_MODEL_H
@@ -19,14 +19,14 @@ alignas(8) const uint8_t kws_model[] = {
 
 const unsigned int kws_model_len = 15488;
 
-// Paramï¿½tres audio ï¿½ DOIVENT correspondre au preprocessing Python
+// Paramètres audio — DOIVENT correspondre au preprocessing Python
 #define SAMPLE_RATE   16000
 #define CLIP_DURATION 1.0f
 #define N_MFCC        13
-#define N_FRAMES      97
+#define N_FRAMES      98
 #define NUM_LABELS    3
 
-// Labels dans le mï¿½me ordre que l'entraï¿½nement
+// Labels dans le même ordre que l'entraînement
 const char* LABELS[] = {"yes", "no", "background"};
 
 #endif // KWS_MODEL_H
