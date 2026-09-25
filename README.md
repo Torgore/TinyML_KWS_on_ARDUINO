@@ -79,8 +79,9 @@ kws-tinyml/
 │   ├── arduino_output.h         # RGB LED management
 │   └── kws_model.h              # Exported TFLite model as a C array (generated)
 │
-└── logs.txt
-└── procedure.txt
+└── logs.md                      # history of the problems encountered and how to solve them  
+└── notions.txt                  # some notions important to understand how the training works 
+└── procedure.txt                # big picture of the procedure to realize this project
 └── README.md
 ```
 
