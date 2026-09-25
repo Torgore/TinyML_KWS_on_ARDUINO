@@ -1,0 +1,11 @@
+- add libraries 
+- add the code 
+- error 1 : ⚠ Timeout audio — relance
+- Not the same PDM(mic)(rev2)
+- PDM test on side, check
+- stop and reboot the PDM after every clip
+- adjust model input size 
+- add background dataset 
+- adapt background dataset to 16000 Hz and 1sec clips
+- oversampling of the background
+- make sure mfcc features are calculated the same for training (python) and inference (arduino) 
